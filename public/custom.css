@@ -1,0 +1,53 @@
+.main-comp {
+    height: 100vh;
+    margin: auto;
+}
+
+.bg-gradient-primary {
+    background-image: linear-gradient(155deg, #00e58a 20%, #6f42c1 100%)
+}
+
+.card, .list-group-item {
+    background-color: transparent !important;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-check-input:checked {
+    border-color: #fff !important;
+    background-color: transparent;
+    background-image: linear-gradient(155deg, #00bf3b 20%, #6b0000 100%);
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+    border-color: #fff;
+}
+
+.card-header {
+    border-bottom: 1px solid #fff !important;
+}
+
+.card-footer {
+    border-top: 1px solid #fff !important;
+}
+
+.form-control::placeholder, .form-control, .form-check-label {
+    color: white !important;
+}
+
+.form-control {
+    border: 1px solid rgba(255, 255, 255, .5) !important;
+}
+.delete-icon{
+    cursor: pointer;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+.opacity-5{
+    opacity: .5;
+}
